@@ -30,7 +30,7 @@ def excel_to_markdown():
     save_path = filedialog.asksaveasfilename(defaultextension=".md",
                                              filetypes=(("Markdown Files", "*.md"), ("All Files", "*.*")))
 
-    # Сохраняем Markdown в файл
+    # Сохраняем Markdown в созданный файл
     with open(save_path, 'w') as f:
         f.write(markdown)
 
